@@ -12,7 +12,7 @@ password = ""
 for x in range(pickcharacters): 
   password = password + random.choice(characters)
 
-  print(password)
+print(password)
 
 
   
