@@ -16,8 +16,8 @@ elif hunger < 3:
   print("you should try a salad.")
 elif hunger == 3:
   print("you're hungry enough to eat whatever.")
-elif hunger > 5:
+elif hunger < 5:
   print("I see a giant burrito in your future.")
 else: 
-  print("Otherwise, why are you taking a quiz? " \
+  print("Why are you taking a quiz? " \
   + "GO EAT EVERYTHING.")
