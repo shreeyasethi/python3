@@ -1,0 +1,18 @@
+#Subjects
+subjects = ["physics", "english", "math", "chemistry", "history", "french"]
+#Grades
+grades = [98, 90,95,97, 98, 92] 
+#Gradebook 
+gradebook = [["physics", 98 ], ["english", 90], ["math", 95], ["chemistry", 97], ["history", 98], ["french", 92]]
+#computerscience
+#new_value =  ["Visual arts", 93]]
+gradebook.append(["Computer Science", 100]) 
+gradebook.append(["Visual arts", 93]) 
+gradebook[-1][-1] = 98
+gradebook[5].remove(92)
+gradebook[5].append("Pass")
+
+last_semester_gradebook = [["physics", 92 ], ["english", 89], ["math", 98], ["chemistry", 98], ["history", 99], ["french", 92]]
+
+full_gradebook = (last_semester_gradebook) + (gradebook) 
+print(full_gradebook)
